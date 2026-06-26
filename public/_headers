@@ -1,0 +1,21 @@
+/*
+  # Security Headers for Cloudflare Pages
+
+  # Content Security Policy
+  # Allow Google Analytics and other trusted scripts
+  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' 'https://www.googletagmanager.com' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: blob:; font-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests; block-all-mixed-content
+
+  # X-Content-Type-Options
+  X-Content-Type-Options: nosniff
+
+  # X-Frame-Options
+  X-Frame-Options: DENY
+
+  # X-XSS-Protection
+  X-XSS-Protection: 1; mode=block
+
+  # Referrer-Policy
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Permissions-Policy
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
