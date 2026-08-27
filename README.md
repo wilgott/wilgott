@@ -16,6 +16,9 @@ A/B testing micro-SaaS for marketers, product people, and solo entrepreneurs. Sp
 ### <a href="https://pixelwatch.app">PixelWatch.app</a>
 Competitor monitoring for product people and solo entrepreneurs. Track any URL daily, get side-by-side screenshot diffs with changes highlighted, and browse historical snapshots. No spreadsheets, no manual screenshots—know what they're changing before your customers do.
 
+### <a href="https://vault.wilgott.com/">AI Vault Asset</a>
+Durable shared vault + hosted MCP so Claude, Cursor, and cloud agents can save → find → promote files without DIY tunnels or a local storage as source of truth. Inbox for messy dumps, library when it matters. Org seats, scoped tokens, audit. Free to start.
+
 ---
 
 ## 💻 Tech Stack
